@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Template for project output</title>
+</head>
+<body>
+<h2>All projects will be here</h2>
+{% for project in projects %}
+<p>Project number: #{{project.id}} </p>
+<h3>Project name: <a href="{% utl 'project' project.id %}">{{project.title }}</a></h3>
+<em>{{ project.description }}</em>
+{% endfor}
+</body>
+</html>
