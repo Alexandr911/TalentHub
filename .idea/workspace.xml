@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f433e710-387f-4432-8d1c-c0048c1a6c25" name="Changes" comment="registering a model in admin.py">
-      <change beforePath="$PROJECT_DIR$/.idea/TalentHub.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TalentHub.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/talenthub/talenthub/projects/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/talenthub/talenthub/projects/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/talenthub/talenthub/projects/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/talenthub/talenthub/projects/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,13 @@
     <option name="groupingKeys">
       <option value="directory" />
       <option value="repository" />
+    </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="FF_ONLY" />
+      </set>
     </option>
   </component>
   <component name="Git.Settings">
