@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f433e710-387f-4432-8d1c-c0048c1a6c25" name="Changes" comment="csrf_token created to protect against attacks">
-      <change afterPath="$PROJECT_DIR$/talenthub/talenthub/projects/templates/projects/project_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/talenthub/talenthub/projects/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +17,13 @@
     <option name="groupingKeys">
       <option value="directory" />
       <option value="repository" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
     </option>
   </component>
   <component name="Git.Pull.Settings">
@@ -183,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709632589573</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="csrf_token created to protect against attacks">
+      <option name="closed" value="true" />
+      <created>1709632855177</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1709632855178</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
