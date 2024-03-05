@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f433e710-387f-4432-8d1c-c0048c1a6c25" name="Changes" comment="registering a model in admin.py">
+    <list default="true" id="f433e710-387f-4432-8d1c-c0048c1a6c25" name="Changes" comment="Expanded the Project model, added a connection to the tables of tags and reviews">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/talenthub/talenthub/projects/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/talenthub/talenthub/projects/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/talenthub/talenthub/projects/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/talenthub/talenthub/projects/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/talenthub/talenthub/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/talenthub/talenthub/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/talenthub/talenthub/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/talenthub/talenthub/projects/templates/projects/single-project.htm" beforeDir="false" afterPath="$PROJECT_DIR$/talenthub/talenthub/projects/templates/projects/single-project.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/talenthub/talenthub/projects/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/talenthub/talenthub/projects/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -69,6 +72,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/talenthub/talenthub" />
       <recent name="$PROJECT_DIR$/talenthub/talenthub/projects/templates/projects" />
     </key>
   </component>
@@ -136,7 +140,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709577372511</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Expanded the Project model, added a connection to the tables of tags and reviews">
+      <option name="closed" value="true" />
+      <created>1709623921829</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709623921829</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Expanded the Project model, added a connection to the tables of tags and reviews">
+      <option name="closed" value="true" />
+      <created>1709623969495</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709623969495</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,6 +206,7 @@
     <MESSAGE value="Create model Project" />
     <MESSAGE value="registering a model in admin" />
     <MESSAGE value="registering a model in admin.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="registering a model in admin.py" />
+    <MESSAGE value="Expanded the Project model, added a connection to the tables of tags and reviews" />
+    <option name="LAST_COMMIT_MESSAGE" value="Expanded the Project model, added a connection to the tables of tags and reviews" />
   </component>
 </project>

@@ -8,6 +8,11 @@
 <h3>Project #{{ project.id }}</h3>
 <p>{{ project.title }}</p>
 <br>
+<ul>
+    {% for tag in project.tag.all %}
+    <li>{{tag }}</li>
+    {% endfor %}
+</ul>
 <em>{{ project.description }}</em>
 </body>
 </html>

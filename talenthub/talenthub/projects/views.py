@@ -1,19 +1,13 @@
 from django.shortcuts import render
-# from .models import Project
+from .models import Project
 
 # Create your views here.
 def projects(request):
-    projectsList = [{'id':1,
-                     'title':'Online-Kino',
-                     'description':'Ein Kino mit der umfassendsten Filmbibliothek.'},
-                    {'id':2,
-                     'title':'Plattform mit IT-Kursen',
-                     'description':'Kurse zu Front-End, Back-End und mobiler Entwicklung.'},
-                    {'id':3,
-                     'title':'Recruiting-Portal',
-                     'description':'Stellenangebote für hochkarätige Fachkräfte.'},
-    ]
-    return render(request, 'projects/projects.html', {'projects':projectsList})
+    projects = Project.objects.all()
+    context = {'projects': projects}
+    return render(request, 'projects/projects.html', context)
 
-def project(request):
-    return render(request, 'projects/single-project.html')
+def project(request, pk):
+    projectObj = Project.objects.get(id=pk)
+    tags = projectObj.tags.all()
+    return render(request, 'projects/single-project.html', {'project': projectObj})
