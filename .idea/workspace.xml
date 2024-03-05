@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f433e710-387f-4432-8d1c-c0048c1a6c25" name="Changes" comment="Expanded the Project model, added a connection to the tables of tags and reviews">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/talenthub/talenthub/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/talenthub/talenthub/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/talenthub/talenthub/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/talenthub/talenthub/projects/templates/projects/single-project.htm" beforeDir="false" afterPath="$PROJECT_DIR$/talenthub/talenthub/projects/templates/projects/single-project.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/talenthub/talenthub/projects/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/talenthub/talenthub/projects/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="f433e710-387f-4432-8d1c-c0048c1a6c25" name="Changes" comment="csrf_token created to protect against attacks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,17 +16,9 @@
       <option value="repository" />
     </option>
   </component>
-  <component name="Git.Pull.Settings">
-    <option name="OPTIONS">
-      <set>
-        <option value="FF_ONLY" />
-      </set>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -156,7 +142,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709623969495</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="changing the projects view function">
+      <option name="closed" value="true" />
+      <created>1709631192994</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709631192994</updated>
+    </task>
+    <task id="LOCAL-00010" summary="csrf_token created to protect against attacks">
+      <option name="closed" value="true" />
+      <created>1709632259242</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709632259242</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +209,8 @@
     <MESSAGE value="registering a model in admin" />
     <MESSAGE value="registering a model in admin.py" />
     <MESSAGE value="Expanded the Project model, added a connection to the tables of tags and reviews" />
-    <option name="LAST_COMMIT_MESSAGE" value="Expanded the Project model, added a connection to the tables of tags and reviews" />
+    <MESSAGE value="changing the projects view function" />
+    <MESSAGE value="csrf_token created to protect against attacks" />
+    <option name="LAST_COMMIT_MESSAGE" value="csrf_token created to protect against attacks" />
   </component>
 </project>
